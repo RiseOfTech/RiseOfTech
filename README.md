@@ -9,11 +9,11 @@
 
 - Пишу на Java и Spring.
 - Изучаю поведенческую экономику: как люди принимают решения о деньгах, как реагируют на информацию и риск.
-- Работаю spec-first: сначала спецификация, потом код, вместе с ИИ-агентами.
+- Веду разработку по спецификациям (spec-driven development): требования, дизайн и задачи фиксируются до кода, реализация и ревью — в связке с ИИ-агентами.
 
 ## Проекты
 
-### [sdd-docs-playbook](https://github.com/RiseOfTech/sdd-docs-playbook)
+### SDD Docs Playbook
 
 Документация, которая не отстаёт от кода, в spec-driven development.
 
@@ -24,7 +24,9 @@
 
 *Docs that keep up with the code in spec-driven development: a project map, a glossary, separate guides for analysts and developers, and AI agent skills that keep them current.*
 
-<sub>[Русский](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/ru/README.md) · [English](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/en/README.md) · Markdown · MIT</sub>
+<sub>[Репозиторий](https://github.com/RiseOfTech/sdd-docs-playbook) · [Русский](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/ru/README.md) · [English](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/en/README.md) · Markdown · MIT</sub>
+
+---
 
 ### Сорок лет
 
@@ -36,6 +38,8 @@
 
 <sub>JavaScript · без сборки и зависимостей · закрытый репозиторий</sub>
 
+---
+
 ### Polymarket Tracker
 
 Как ведут себя участники рынка вокруг публичных событий.
@@ -45,6 +49,8 @@
 - Проверка на случайность, чтобы отличить информированность от удачи.
 
 <sub>Java 21 · Spring Boot · PostgreSQL · ончейн-данные · закрытый репозиторий</sub>
+
+---
 
 ### Mneme
 
