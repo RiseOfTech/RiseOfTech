@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="RiseOfTech — технологии растут по сложному проценту">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/header-static.png">
+    <img src="./assets/header.svg" width="100%" alt="RiseOfTech — робот с рюкзаком идёт вверх по графику навстречу рассвету. Технологии растут по сложному проценту">
+  </picture>
 </p>
 
 Бэкенд-разработчик на стыке IT и финансов. Пишу на Java и Spring, изучаю поведенческую экономику: как люди принимают решения о деньгах, как реагируют на информацию и риск. Работаю spec-first: сначала спецификация, потом код, вместе с ИИ-агентами.
