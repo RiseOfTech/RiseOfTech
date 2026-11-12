@@ -5,35 +5,65 @@
   </picture>
 </p>
 
-Бэкенд-разработчик на стыке IT и финансов. Пишу на Java и Spring, изучаю поведенческую экономику: как люди принимают решения о деньгах, как реагируют на информацию и риск. Работаю spec-first: сначала спецификация, потом код, вместе с ИИ-агентами.
+**Бэкенд-разработчик на стыке IT и финансов.**
+
+- Пишу на Java и Spring.
+- Изучаю поведенческую экономику: как люди принимают решения о деньгах, как реагируют на информацию и риск.
+- Работаю spec-first: сначала спецификация, потом код, вместе с ИИ-агентами.
 
 ## Проекты
 
-**[sdd-docs-playbook](https://github.com/RiseOfTech/sdd-docs-playbook)** — [RU](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/ru/README.md) · [EN](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/en/README.md)<br>
-<sub>Markdown · шаблоны, промпты и скиллы для ИИ-агентов · MIT</sub>
+### [sdd-docs-playbook](https://github.com/RiseOfTech/sdd-docs-playbook)
 
-Как держать документацию читаемой и актуальной в spec-driven development: карта проекта, глоссарий, где у каждого термина один смысл, отдельные гайды для аналитика и разработчика, единые правила и скиллы, с которыми ИИ-агент обновляет и проверяет гайды после изменений кода. Ничего не устанавливается — материалы копируются в проект.
+Документация, которая не отстаёт от кода, в spec-driven development.
 
-*Keeping documentation readable and up to date in spec-driven development: a project map, a glossary with one meaning per term, separate guides for the analyst and the developer, a single set of rules, and AI agent skills that update and check the guides after code changes. Nothing to install — copy the materials into your project.*
+- Карта проекта и глоссарий, где у каждого термина один смысл.
+- Отдельные гайды для аналитика (что и зачем) и разработчика (как и где).
+- Единые правила и скиллы, с которыми ИИ-агент обновляет и проверяет гайды после изменений кода.
+- Ничего не устанавливается: материалы копируются в проект.
 
-**Сорок лет**<br>
+*Docs that keep up with the code in spec-driven development: a project map, a glossary, separate guides for analysts and developers, and AI agent skills that keep them current.*
+
+<sub>[Русский](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/ru/README.md) · [English](https://github.com/RiseOfTech/sdd-docs-playbook/blob/main/en/README.md) · Markdown · MIT</sub>
+
+### Сорок лет
+
+Браузерная игра о личных финансах: жизнь с 22 до 62 лет, один ход — один год.
+
+- Инфляция, сложный процент, кредиты, риск и доходность объясняются через решения игрока и их последствия, а не через вопросы.
+- Паническая продажа фиксирует убытки так же, как в жизни.
+- Четыре вымышленные страны со своей экономикой; баланс проверяется симуляцией стратегий.
+
 <sub>JavaScript · без сборки и зависимостей · закрытый репозиторий</sub>
 
-Браузерная игра о личных финансах: жизнь с 22 до 62 лет, один ход — один год. Инфляция, сложный процент, кредиты, риск и доходность объясняются через решения игрока и их последствия, а не через вопросы; паническая продажа фиксирует убытки так же, как в жизни. Экономика четырёх вымышленных стран; баланс проверяется симуляцией стратегий.
+### Polymarket Tracker
 
-**Polymarket Tracker**<br>
+Как ведут себя участники рынка вокруг публичных событий.
+
+- Как распределяются решения до объявления и кто действует раньше остальных.
+- Признаки: время, цена, направленность, повторяемость.
+- Проверка на случайность, чтобы отличить информированность от удачи.
+
 <sub>Java 21 · Spring Boot · PostgreSQL · ончейн-данные · закрытый репозиторий</sub>
 
-Исследование поведения участников рынка вокруг публичных событий: как распределяются решения до объявления, кто действует раньше остальных и можно ли отличить информированность от удачи. Сервис собирает открытые данные о сделках и переводах, считает признаки — время, цену, направленность, повторяемость — и проверяет их на случайность.
+### Mneme
 
-**Mneme** — [core](https://github.com/RiseOfTech/mneme-core) · [auth](https://github.com/RiseOfTech/mneme-auth) · [web](https://github.com/RiseOfTech/mneme-web) · [deploy](https://github.com/RiseOfTech/mneme-deploy)<br>
+Изучение иностранных слов через личные мнемонические ассоциации и интервальное повторение по Лейтнеру.
+
+- [mneme-core](https://github.com/RiseOfTech/mneme-core) — карточки, повторения, REST API
+- [mneme-auth](https://github.com/RiseOfTech/mneme-auth) — регистрация и вход на JWT
+- [mneme-web](https://github.com/RiseOfTech/mneme-web) — браузерный клиент
+- [mneme-deploy](https://github.com/RiseOfTech/mneme-deploy) — весь продукт одной командой
+
 <sub>Java 21 · Spring Boot · PostgreSQL · Vue 3 · TypeScript · Docker</sub>
-
-Изучение иностранных слов через личные мнемонические ассоциации и интервальное повторение по Лейтнеру. Несколько сервисов с чёткими границами: данные, авторизация на JWT, хранилище файлов, браузерный клиент и запуск всего продукта одной командой.
 
 ## Стек
 
-Java 21, Spring Boot, PostgreSQL, Flyway, Testcontainers, web3j · Vue 3, TypeScript · Docker, GitHub Actions · OpenSpec, Claude Code
+- **Бэкенд:** Java 21, Spring Boot, PostgreSQL, Flyway, Testcontainers
+- **Фронтенд:** Vue 3, TypeScript, JavaScript
+- **Блокчейн:** web3j, ончейн-данные
+- **Инфраструктура:** Docker, GitHub Actions
+- **Процесс:** OpenSpec, Claude Code
 
 ## Контакты
 
