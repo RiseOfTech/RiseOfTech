@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/header-static.png">
-    <img src="./assets/header.svg" width="100%" alt="RiseOfTech — робот с рюкзаком идёт вверх по графику навстречу рассвету. Технологии растут по сложному проценту">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/header-static.png?v=63aa0b7">
+    <img src="./assets/header.svg?v=63aa0b7" width="100%" alt="RiseOfTech — робот с рюкзаком идёт вверх по графику навстречу рассвету. Технологии растут по сложному проценту">
   </picture>
 </p>
 
